@@ -7,9 +7,9 @@ Minimumversion node = 14.8.0
 
 När node och npm är installerat på datorn, skapa en .env fil med följande information:
 
-TOKEN = ""
-ZONEID = ""
-DOMAIN = ""
+TOKEN = ""  
+ZONEID = ""  
+DOMAIN = ""  
 
 TOKEN skapar du under "API Tokens" på "My Profile" i din Cloudflare dashboard.
 Behörigheterna som krävs är "Edit Zone DNS" "Include specific zone" med den domänen du vill auto-uppdatera.
