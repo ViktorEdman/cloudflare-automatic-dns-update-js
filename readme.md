@@ -1,15 +1,17 @@
 Hej! Välkommen till Viktors automatiska dns-uppdaterare för cloudflare dns.
 
 För att köra denna appen behöver du NodeJS och npm. läs instruktionerna här:
-https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm  
+OM du kör Ubuntu så kan du följa denna guide:  
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04
 
-Minimumversion node = 14.8.0
+Minimumversion node = 14.8.0  
 
-När node och npm är installerat på datorn, skapa en .env fil med följande information:
+När node och npm är installerat på datorn, skapa en .env fil med följande information:  
 
-TOKEN = ""
-ZONEID = ""
-DOMAIN = ""
+TOKEN = ""  
+ZONEID = ""  
+DOMAIN = ""  
 
 TOKEN skapar du under "API Tokens" på "My Profile" i din Cloudflare dashboard.
 Behörigheterna som krävs är "Edit Zone DNS" "Include specific zone" med den domänen du vill auto-uppdatera.
