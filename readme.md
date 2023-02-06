@@ -1,6 +1,6 @@
 Hej! Välkommen till Viktors automatiska dns-uppdaterare för cloudflare dns.
 
-För att köra denna appen behöver du NodeJS och npm. läs instruktionerna här:
+För att köra denna appen behöver du NodeJS och npm. läs instruktionerna här:  
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 Minimumversion node = 14.8.0
