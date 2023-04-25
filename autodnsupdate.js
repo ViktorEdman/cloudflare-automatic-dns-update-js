@@ -1,7 +1,10 @@
 import axios from "axios";
-import env from "dotenv";;
+import env from "dotenv";
 
-env.config()
+import * as url from 'url'
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
+
+env.config({ path: __dirname + "/.env" })
 
 const { TOKEN, ZONEID, DOMAIN } = process.env;
 

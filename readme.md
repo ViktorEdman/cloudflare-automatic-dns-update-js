@@ -4,8 +4,8 @@ Minimumversion node = 14.8.0
 
 När node och npm är installerat på datorn, skapa en .env fil med följande information:
 
-TOKEN = ""  
-ZONEID = ""  
+TOKEN = ""
+ZONEID = ""
 DOMAIN = ""
 
 TOKEN skapar du under "API Tokens" på "My Profile" i din Cloudflare dashboard.
